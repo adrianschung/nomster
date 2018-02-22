@@ -1,5 +1,6 @@
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import "font-awesome";
 
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -24,19 +25,19 @@ body {
 }
 
 .navbar {
-  background: image_url('concrete-texture.png');
+  background: image_url('binding_dark_@2X.png');
   box-shadow: 0px 1px 3px #2a2a2a;
   margin-bottom: 15px;
 }
 
 .navbar-inverse .navbar-brand {
-  color: #C98A1C;
+  color: #ffdab9;
   font-family: 'Satisfy', cursive;
   font-size: 26px;
 }
 
 .navbar-inverse .navbar-brand:hover {
-  color:black;
+  color: white;
 }
 
   .digg_pagination a, .digg_pagination span, .digg_pagination em {
@@ -51,26 +52,26 @@ body {
   .digg_pagination .current {
     font-style: normal;
     font-weight: bold;
-    background: #2e6ab1;
+    background: #2d2d2d;
     color: white;
-    border: 1px solid #2e6ab1; }
+    border: 1px solid #2d2d2d; }
   .digg_pagination a {
     text-decoration: none;
-    color: #105cb6;
-    border: 1px solid #9aafe5;
+    color: #2d2d2d;
+    border: 1px solid #2d2d2d;
     background: #ffffff}
     .digg_pagination a:hover, .digg_pagination a:focus {
-      color: #C98A1C;
-      border-color: #C98A1C; }
+      color: #ffdab9;
+      border-color: #ffdab9; }
   .digg_pagination .page_info {
-    background: #2e6ab1;
+    background: #2d2d2d;
     color: white;
     padding: 0.4em 0.6em;
     width: 22em;
     margin-bottom: 0.3em;
     text-align: center; }
     .digg_pagination .page_info b {
-      color: #000033;
+      color: #2d2d2d;
       background: #6aa6ed;
       padding: 0.1em 0.25em; }
   .digg_pagination:after {
