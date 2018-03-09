@@ -27,7 +27,7 @@ body {
 .navbar {
   background: image_url('binding_dark_@2X.png');
   box-shadow: 0px 1px 3px #2a2a2a;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
 }
 
 .navbar-inverse .navbar-brand {
@@ -134,4 +134,39 @@ blockquote p {
 .photo-box {
   width: 300px;
   height: 300px;
+}
+
+.carousel-control {
+  color: #696969;
+}
+
+.carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
+  max-height: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.carousel-caption {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: 100;
+  text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.carousel {
+  max-width: 825px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.carousel-item.active, 
+.carousel-item-next, 
+.carousel-item-prev {
+  display: block;
 }
