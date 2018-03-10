@@ -51,12 +51,13 @@
     </p>
     
     <% if place.user.present? %>
-      <small><%= place.user.email %></small>
+      <small>Posted by: <%= place.user.email %></small>
     <% end %>
    <% if place.photos.present? %>
+    <br />
     <div class="col-12">
-      <div class="photo-box">
-        <%= image_tag place.photos.last, class: "photo" %>
+      <div class="photo-index">
+        <%= image_tag place.photos.last.picture, class: "photo" %>
       </div>
     </div>
   <% end %>
