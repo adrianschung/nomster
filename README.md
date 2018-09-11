@@ -1,24 +1,12 @@
-# README
+# Skatester
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Skatester is designed to provide information on various skateparks.
 
-Things you may want to cover:
+Users are able to:
+* view the location using Google Maps API
+* post park information
+* upload pictures
+* post comments and ratings
+* view user profiles that display comments and parks submitted
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+View the application [here](https://skatester-adrian-chung.herokuapp.com/)
